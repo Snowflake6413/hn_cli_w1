@@ -2,6 +2,8 @@
 name = "hn_cli_snowflake6413"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "A simple CLI to show the latest news from Hacker news."
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json", "blocking"] }
